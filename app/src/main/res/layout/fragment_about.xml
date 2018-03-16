@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/aboutRV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3dp"
+        android:divider="@color/my_account_bg"
+        android:dividerHeight="3dp"
+        android:scrollbars="none"
+        android:visibility="visible" />
+
+
+   <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/downloadformsTV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/settings_item_selector"
+            android:drawableEnd="@drawable/arrow_image_selector"
+            android:drawablePadding="5dp"
+            android:drawableRight="@drawable/arrow_image_selector"
+            android:gravity="center|start"
+            android:padding="10dp"
+            android:text="@string/download_forms"
+            android:textColor="@drawable/text_selector"
+            android:textSize="@dimen/normal_text_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/Black" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/guestChargesTV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/settings_item_selector"
+            android:drawableEnd="@drawable/arrow_image_selector"
+            android:drawablePadding="5dp"
+            android:drawableRight="@drawable/arrow_image_selector"
+            android:gravity="center|start"
+            android:padding="10dp"
+            android:text="@string/guest_charges"
+            android:textColor="@drawable/text_selector"
+            android:textSize="@dimen/normal_text_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/Black" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/administrativeTV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/settings_item_selector"
+            android:drawableEnd="@drawable/arrow_image_selector"
+            android:drawablePadding="5dp"
+            android:drawableRight="@drawable/arrow_image_selector"
+            android:gravity="center|start"
+            android:padding="10dp"
+            android:text="@string/administartive"
+            android:textColor="@drawable/text_selector"
+            android:textSize="@dimen/normal_text_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/Black" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/managingCommitteeTV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/settings_item_selector"
+            android:drawableEnd="@drawable/arrow_image_selector"
+            android:drawablePadding="5dp"
+            android:drawableRight="@drawable/arrow_image_selector"
+            android:gravity="center|start"
+            android:padding="10dp"
+            android:text="@string/managing_committee"
+            android:textColor="@drawable/text_selector"
+            android:textSize="@dimen/normal_text_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/Black" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/smartCardTV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/settings_item_selector"
+            android:drawableEnd="@drawable/arrow_image_selector"
+            android:drawablePadding="5dp"
+            android:drawableRight="@drawable/arrow_image_selector"
+            android:gravity="center|start"
+            android:padding="10dp"
+            android:text="@string/smart_card"
+            android:textColor="@drawable/text_selector"
+            android:textSize="@dimen/normal_text_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/Black" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/memberShipDetailsTV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/settings_item_selector"
+            android:drawableEnd="@drawable/arrow_image_selector"
+            android:drawablePadding="5dp"
+            android:drawableRight="@drawable/arrow_image_selector"
+            android:gravity="center|start"
+            android:padding="10dp"
+            android:text="@string/membership_detail"
+            android:textColor="@drawable/text_selector"
+            android:textSize="@dimen/normal_text_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/Black" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/clubOverviewTV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/settings_item_selector"
+            android:drawableEnd="@drawable/arrow_image_selector"
+            android:drawablePadding="5dp"
+            android:drawableRight="@drawable/arrow_image_selector"
+            android:gravity="center|start"
+            android:padding="10dp"
+            android:text="@string/club_overview"
+            android:textColor="@drawable/text_selector"
+            android:textSize="@dimen/normal_text_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/Black" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/disclaimerTV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/settings_item_selector"
+            android:drawableEnd="@drawable/arrow_image_selector"
+            android:drawablePadding="5dp"
+            android:drawableRight="@drawable/arrow_image_selector"
+            android:gravity="center|start"
+            android:padding="10dp"
+            android:text="@string/disclaimer"
+            android:textColor="@drawable/text_selector"
+            android:textSize="@dimen/normal_text_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/Black" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/contactUsTV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/settings_item_selector"
+            android:drawableEnd="@drawable/arrow_image_selector"
+            android:drawablePadding="5dp"
+            android:drawableRight="@drawable/arrow_image_selector"
+            android:gravity="center|start"
+            android:padding="10dp"
+            android:text="@string/contact_us"
+            android:textColor="@drawable/text_selector"
+            android:textSize="@dimen/normal_text_size" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/Black" />
+
+
+    </LinearLayout>
+-->
+
+</LinearLayout>

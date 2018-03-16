@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ambuja.clubapp.HomeActivity">
+
+    <item
+        android:id="@+id/shareApp"
+        android:actionViewClass="android.widget.SearchView"
+        android:title="@string/share_app"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/appFeedback"
+        android:title="@string/app_feedback"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/contactUs"
+        android:title="@string/contact_us"
+        android:visible="false"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/clubLists"
+        android:title="@string/club_list"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/changePassword"
+        android:title="@string/change_password"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/payments"
+        android:title="@string/my_account"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/tutorials"
+        android:title="@string/tutorials"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/settings"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_login"
+        android:icon="@drawable/adduser_icon"
+        android:title="@string/member_login"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_logout"
+        android:title="@string/logout"
+        app:showAsAction="never" />
+
+
+</menu>

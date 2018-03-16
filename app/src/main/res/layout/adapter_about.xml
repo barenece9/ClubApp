@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/White"
+    card_view:cardBackgroundColor="@color/White"
+    card_view:cardElevation="2dp"
+    card_view:cardPreventCornerOverlap="false"
+    card_view:cardUseCompatPadding="true"
+    card_view:contentPadding="5dp">
+
+
+    <TextView
+        android:id="@+id/aboutListTV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/settings_item_selector"
+        android:drawableLeft="@drawable/arrow_image_selector"
+        android:drawablePadding="5dp"
+        android:drawableStart="@drawable/arrow_image_selector"
+        android:gravity="center|start"
+        android:padding="10dp"
+        android:text="@string/guest_charges"
+        android:textColor="@drawable/text_selector"
+        android:textSize="@dimen/normal_text_size" />
+
+
+</android.support.v7.widget.CardView>

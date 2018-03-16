@@ -1,0 +1,4 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/mic_purple_icon" android:state_selected="true"/>
+    <item android:drawable="@drawable/mic_icon"/> <!-- default -->
+</selector>
